@@ -31,13 +31,25 @@ public class Main {
         calc.add(5,2);
         System.out.println();
         */
-        Calculator liczydlo = new Calculator();
+       /* Calculator liczydlo = new Calculator();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Prosze podac pierwsza liczbe");
         int firstVariable = scanner.nextInt();
         System.out.println("Prosze podac druga liczbe");
         int secondVariable = scanner.nextInt();
         System.out.println("Twoj wynik to" + liczydlo.sub(firstVariable,secondVariable));
-
+*/
+        Calculator calculator = new Calculator();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("podaj pierwsza liczbe");
+        int x = scanner.nextInt();
+        System.out.println("jaka operacje chcesz wykonac + - *");
+        String znak = scanner.next();
+        System.out.println("podaj druga liczbe");
+        int y = scanner.nextInt();
+        switch (znak){
+            case "+":
+                System.out.println(calculator.add(x,y));
+        }
     }
 }
