@@ -50,6 +50,13 @@ public class Main {
         switch (znak){
             case "+":
                 System.out.println(calculator.add(x,y));
+                break;
+            case "-":
+                System.out.println(calculator.sub(x,y));
+                break;
+            case "*":
+                System.out.println(calculator.multiply(x,y));
+                break;
         }
     }
 }
