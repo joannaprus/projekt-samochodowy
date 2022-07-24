@@ -37,6 +37,7 @@ public class Main {
         int firstVariable = scanner.nextInt();
         System.out.println("Prosze podac druga liczbe");
         int secondVariable = scanner.nextInt();
-        System.out.println("Twoj wynik to" + liczydlo.add(firstVariable,secondVariable));
+        System.out.println("Twoj wynik to" + liczydlo.sub(firstVariable,secondVariable));
+
     }
 }

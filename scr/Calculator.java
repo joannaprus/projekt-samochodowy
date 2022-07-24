@@ -9,5 +9,15 @@ public class Calculator {
         int c;
         c = a + b;
         return c;
+
+
+
+
     }
-}
+    public  int sub(int a, int x){
+        int c;
+        c = a - x;
+        return c;
+    }
+    }
+
